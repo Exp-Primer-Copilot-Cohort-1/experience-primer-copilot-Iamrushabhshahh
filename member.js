@@ -1,3 +1,6 @@
-function skillsMemeber() {
-    console.log('Skills: HTML, CSS, JavaScript');
+function skillsMember() {
+  return {
+    name: 'John Doe',
+    skills: ['JavaScript', 'React', 'Node']
+  }
 }
